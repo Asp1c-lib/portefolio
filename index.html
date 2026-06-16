@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Antonin Lizzi | Portfolio</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">portfolio.antonin_lizzi</div>
+
+<ul>
+<li><a href="#hero">Accueil</a></li>
+<li><a href="#about">À Propos</a></li>
+<li><a href="#projects">Projets</a></li>
+<li><a href="#cv">CV</a></li>
+<li><a href="#contact">Me Contacter</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="hero">
+
+<div class="hero">
+
+<p class="tag">Étudiant BUT Informatique • Grenoble</p>
+
+<h1>Antonin Lizzi</h1>
+
+<p class="subtitle">
+Étudiant en 3ème année de BUT informatique, développeur d'applications.
+</p>
+
+<div class="cta">
+<a href="#projects" class="btn primary">Voir mes projets</a>
+<a href="#about" class="btn ghost">En savoir plus</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2>À propos de moi</h2>
+
+<div class="card">
+
+<p>
+Je suis Antonin Lizzi, étudiant en BUT Informatique à Grenoble. Je suis passionné par la programmation et l'informatique en général.
+</p>
+
+<p>
+J'ai commencé à programmer en 2018 et depuis je n'ai jamais cessé d'apprendre. J'aime comprendre en profondeur les outils que j'utilise et mener des projets personnels comme académiques.
+</p>
+
+<p>
+Mon objectif est de travailler dans le développement logiciel, avec un intérêt particulier pour la conception et la création d'IA.
+</p>
+
+<p>
+En dehors de l'informatique, je pratique le ski, l'escalade, le vélo, la voile et la lecture (notamment science-fiction et fantasy).
+</p>
+
+<p>
+Je fais également du jeu de rôle régulièrement, principalement en tant que maître du jeu, ce qui as même pu m'aider à amméliorer mon inprovisation et ma prise de parole.
+</p>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+
+<h2>Mes projets</h2>
+
+
+<div class="grid">
+
+<!-- CLASSIFICATION -->
+<div class="project"
+data-title="Classification automatique d'actualités"
+data-description="Ce projet consistait à concevoir un système de classification automatique d'articles en Java.
+
+L'objectif était de pouvoir attribuer automatiquement une catégorie à une nouvelle en fonction de son contenu textuel. Pour cela, nous avons mis en place une approche basée sur des lexiques pondérés : chaque catégorie possède son propre ensemble de mots-clés associés à un poids.
+
+Lorsqu'une nouvelle est analysée, le programme calcule un score global pour chaque catégorie en fonction des occurrences et des poids des mots présents. La catégorie avec le score le plus élevé est ensuite sélectionnée.
+
+Dans un premier temps, le lexique a été construit manuellement afin de valider la logique de l'algorithme et de tester la robustesse du modèle. Par la suite, nous avons développé des fonctions permettant d'automatiser la génération et l'enrichissement du lexique.
+
+Ce projet m'a permis de renforcer mes compétences en algorithmique, en structuration de données et en conception de systèmes de traitement de texte. Le système atteint une précision moyenne de 97 %, avec un temps d'exécution d'environ 150 ms.
+
+Github: https://github.com/Aspics/SAE-1.012
+">
+
+<h3>Classification automatique</h3>
+<p>Java • traitement de données</p>
+<span>Détails →</span>
+
+</div>
+
+<!-- LINUX -->
+<div class="project"
+data-title="Installation et configuration d'un poste de travail Linux"
+data-description="Ce projet portait sur la mise en place complète d'un environnement Linux dans un contexte pédagogique.
+
+Dans une première phase, j'ai installé Debian 11 avec interface graphique sur une machine virtuelle, tout en documentant chaque étape sous forme de carte mentale afin de comprendre la structure globale du système.
+
+Dans une seconde phase, le projet a été approfondi avec l'installation de Debian 12 en mode ligne de commande uniquement. Cette version incluait la configuration complète d'un environnement serveur avec Apache2, PHP et PostgreSQL, ainsi que PhpPgAdmin.
+
+L'un des objectifs majeurs était de rendre l'environnement accessible depuis l'extérieur de la machine virtuelle, ce qui m'a amené à travailler sur la configuration réseau et les services système.
+
+Ce projet m'a permis de développer une vraie compréhension de l'administration système Linux, du fonctionnement des services et de la mise en place d'un environnement de développement complet.">
+
+<h3>Poste Linux & serveurs</h3>
+<p>Linux • administration système</p>
+<span>Détails →</span>
+
+</div>
+
+<!-- LUDI MAP -->
+<div class="project"
+data-title="Ludi-Map — Jeu web client-serveur"
+data-description="Ludi-Map est un projet de développement web réalisé en équipe, visant à créer une application interactive permettant de valoriser le patrimoine culturel régional.
+
+Le principe du projet repose sur un jeu en ligne basé sur des cartes historiques représentant différentes époques de la région Auvergne-Rhône-Alpes. L'utilisateur peut naviguer sur ces cartes et découvrir des éléments historiques et culturels associés.
+
+Nous avons conçu une architecture client-serveur complète, avec une gestion des données côté backend et une interface dynamique côté frontend. Le développement a été réalisé en PHP, JavaScript, HTML et CSS.
+
+Ce projet m'a permis de travailler sur la communication entre client et serveur, la structuration de données ainsi que sur le développement collaboratif en équipe, avec une répartition claire des tâches et une intégration progressive des fonctionnalités.
+
+Github: https://github.com/Exaether/Ludi-map
+">
+
+<h3>Ludi-Map</h3>
+<p>Web • PHP • JS</p>
+<span>Détails →</span>
+
+</div>
+
+<!-- STAGE LIPhy -->
+<div class="project"
+data-title="Stage au laboratoire LIPhy — Interface scientifique Python"
+data-description="Ce stage de 11 semaines au Laboratoire Interdisciplinaire de Physique (LIPhy) de Grenoble avait pour objectif le développement d'un outil logiciel pour une expérience scientifique.
+
+La mission consistait à concevoir une interface graphique ainsi qu'un backend en Python permettant de contrôler un dispositif expérimental mesurant l'impact de la température sur la vitesse de micro-organismes.
+
+Le travail a impliqué une refactorisation d'un code existant ainsi que la création d'une architecture logicielle composée de plusieurs modules indépendants : contrôle de la température, acquisition vidéo, traitement des données et interface utilisateur.
+
+Ce projet m'a permis d'appliquer Python dans un contexte de recherche, de travailler sur des problématiques de modularité logicielle et de gestion de données expérimentales, ainsi que de renforcer ma capacité à produire un code robuste et maintenable.">
+
+<h3>Stage LIPhy</h3>
+<p>Python • recherche scientifique</p>
+<span>Détails →</span>
+
+</div>
+
+<!-- CHATBOT -->
+<div class="project"
+data-title="Chatbot NLP avec PyTorch"
+data-description="Ce projet personnel consistait à développer un chatbot en Python en moins d'un mois.
+
+Il s'agissait d'explorer les bases du traitement du langage naturel (NLP) et du machine learning afin de créer un système capable de répondre à des entrées textuelles.
+
+Le développement a été réalisé avec PyTorch, en expérimentant différentes approches de modélisation et d'entraînement. Une première version fonctionnelle a été obtenue en environ trois semaines, suivie d'une phase d'amélioration continue visant à augmenter la pertinence des réponses et la gestion du contexte conversationnel.
+
+Ce projet m'a permis d'acquérir une expérience concrète en IA appliquée, en expérimentation rapide et en itération de modèles.">
+
+<h3>Chatbot IA</h3>
+<p>Python • IA • NLP</p>
+<span>Détails →</span>
+
+</div>
+
+<div class="project"
+data-title="Simulation de propagation d'Ebola — Automates cellulaires parallèles"
+data-description="Ce projet consiste à simuler la propagation d'un virus (Ebola) à l'aide d'automates cellulaires dans un environnement de calcul parallèle.
+
+L'objectif est de modéliser la diffusion d'une épidémie sur une grille 2D où chaque cellule représente un individu pouvant être dans différents états : Susceptible, Exposé, Infecté, Rétabli ou Décédé. La simulation repose sur des règles probabilistes de transition entre états, prenant en compte les interactions avec les voisins.
+
+Le modèle implémente deux variantes : un modèle SIR simple et un modèle SEIR plus réaliste incluant une phase d'incubation (Exposed). Chaque individu évolue en fonction de probabilités d'infection et de timers internes simulant les durées d'incubation et de contagion.
+
+Une attention particulière a été portée à la parallélisation du programme en C. Le monde simulé est découpé en segments de lignes distribués entre plusieurs threads, permettant un traitement concurrent des cellules. La synchronisation est assurée via des barrières et mutex afin de garantir la cohérence des générations successives.
+
+Le projet inclut également une analyse de performance avec différents nombres de threads. Les résultats montrent une réduction significative du temps d'exécution (jusqu'à environ 2.7x de speed-up selon le modèle), avec une saturation progressive liée aux coûts de synchronisation et à la contention mémoire.
+
+Des tests ont été réalisés en comparant les résultats avec une version séquentielle afin de valider la cohérence des comportements épidémiques simulés.
+
+Ce projet m'a permis de travailler sur des problématiques de calcul parallèle, de performance, de gestion mémoire en C, ainsi que sur la modélisation scientifique et la simulation numérique à grande échelle."
+>
+
+<h3>Simulation Ebola — Automates cellulaires</h3>
+<p>C • HPC • multithreading • simulation scientifique</p>
+<span>Détails →</span>
+
+</div>
+
+<div class="project"
+data-title="BrainRush Arena — Quiz multiplayer en temps réel"
+data-description="BrainRush Arena est une application web de quiz multijoueur en temps réel conçue pour offrir une expérience compétitive et éducative.
+
+Le système permet aux utilisateurs de sélectionner des catégories de questions et d'affronter d'autres joueurs en PvP (player versus player). Chaque partie repose sur un système de score où les joueurs doivent atteindre 15 bonnes réponses avant leur adversaire pour gagner la partie.
+
+Le projet intègre un système complet d'authentification (inscription / connexion), une gestion des parties, ainsi qu'une base de données permettant de stocker les utilisateurs, les scores et le classement global.
+
+Une attention particulière a été portée à la communication entre frontend et backend afin d'assurer une expérience fluide et réactive. L'interface a été pensée pour favoriser la rapidité de décision et l'engagement utilisateur.
+
+Ce projet m'a permis de travailler sur le développement full-stack avec des technologies comme React, Next.js, API routes et MongoDB, ainsi que sur la conception de systèmes temps réel et de logique de jeu.
+
+Des tests fonctionnels, d'interface et de performance ont été réalisés afin de garantir la stabilité du système dans différents scénarios d'utilisation.
+
+Le projet atteint ses objectifs principaux en proposant une plateforme de quiz moderne, interactive et évolutive, avec une forte dimension technique et UX.
+
+Github : https://github.com/Asp1c-lib/brain-rush-arena
+Deployement : https://brain-rush-arena.vercel.app/en
+"
+>
+
+<h3>BrainRush Arena</h3>
+<p>Full-stack • React • Next.js • MongoDB</p>
+<span>Détails →</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2>Technologies & compétences</h2>
+
+<div class="skills">
+
+<div class="tech">
+<img src="assets/tech/java.svg">
+<span>Java</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/python.svg">
+<span>Python</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/javascript.svg">
+<span>JavaScript</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/react.svg">
+<span>React</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/nextjs.svg">
+<span>Next.js</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/node.svg">
+<span>Node.js</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/mongodb.svg">
+<span>MongoDB</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/sql.svg">
+<span>SQL</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/linux.svg">
+<span>Linux</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/docker.svg">
+<span>Docker</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/git.svg">
+<span>Git</span>
+</div>
+
+<div class="tech">
+<img src="assets/tech/apache.svg">
+<span>Apache</span>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CV -->
+<section id="cv">
+
+<h2>CV</h2>
+
+<div class="cv-box">
+
+<iframe src="assets/cv/cv.pdf"></iframe>
+
+</div>
+
+<div class="cv-actions">
+
+<a class="btn primary" href="assets/cv/cv.pdf" target="_blank">
+📄 Ouvrir le CV
+</a>
+
+<a class="btn ghost" href="assets/cv/cv.pdf" download>
+Télécharger
+</a>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Me contacter</h2>
+
+<div class="card">
+
+<p>Email : antonin.lizzi@gmail.com</p>
+<p>GitHub : github.com/Asp1c-lib</p>
+<p>Localisation : France</p>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- MODAL -->
+<div id="modal">
+<div class="modal-content">
+
+<button id="close">✕</button>
+
+<h2 id="modal-title"></h2>
+<p id="modal-description"></p>
+
+</div>
+</div>
+
+</body>
+</html>
